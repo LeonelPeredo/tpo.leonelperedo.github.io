@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-left: 10px;
+    flex: 1 0 auto;
+    color: #305896;
+}
+
+.contact-us {
+    margin-left: 10px;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+p {
+    margin: 0;
+    color: #ffffff;
+}
